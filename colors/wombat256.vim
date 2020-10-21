@@ -19,7 +19,7 @@ let colors_name = "wombat256"
 
 
 " General colors
-hi Normal		ctermfg=254		ctermbg=234		cterm=none		guifg=#f6f3e8	guibg=#242424	gui=none
+hi Normal		ctermfg=254		ctermbg=234		cterm=none		guifg=#f6f3e8	guibg=#191919	gui=none
 hi Cursor		ctermfg=none	ctermbg=241		cterm=none		guifg=NONE		guibg=#656565	gui=none
 hi Visual		ctermfg=7		ctermbg=238		cterm=none		guifg=#f6f3e8	guibg=#444444	gui=none
 " hi VisualNOS
@@ -31,7 +31,7 @@ hi VertSplit	ctermfg=238		ctermbg=238		cterm=none		guifg=#444444	guibg=#444444	g
 hi StatusLineNC	ctermfg=243		ctermbg=238		cterm=none		guifg=#857b6f	guibg=#444444	gui=none
 hi LineNr		ctermfg=243		ctermbg=0		cterm=none		guifg=#857b6f	guibg=#000000	gui=none
 hi SpecialKey	ctermfg=244		ctermbg=236		cterm=none		guifg=#808080	guibg=#343434	gui=none
-hi NonText		ctermfg=244		ctermbg=236		cterm=none		guifg=#808080	guibg=#303030	gui=none
+hi NonText		ctermfg=264		ctermbg=236		cterm=none		guifg=#808080	guibg=#262626	gui=none
 
 " Vim >= 7.0 specific colors
 if version >= 700
@@ -43,14 +43,14 @@ endif
 
 
 " Syntax highlighting
-hi Keyword		ctermfg=111		cterm=none		guifg=#8ac6f2	gui=none
-hi Statement	ctermfg=111		cterm=none		guifg=#8ac6f2	gui=none
+hi Keyword		ctermfg=111		cterm=none		guifg=#8bc7f3	gui=none
+hi Statement	ctermfg=111		cterm=none		guifg=#8bc7f3	gui=none
 hi Constant		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
 hi Number		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
 hi PreProc		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
-hi Function		ctermfg=192		cterm=none		guifg=#cae682	gui=none
-hi Identifier	ctermfg=192		cterm=none		guifg=#cae682	gui=none
-hi Type			ctermfg=192		cterm=none		guifg=#cae682	gui=none
+hi Function		ctermfg=192		cterm=none		guifg=#cbe783	gui=none
+hi Identifier	ctermfg=192		cterm=none		guifg=#cbe783	gui=none
+hi Type			ctermfg=192		cterm=none		guifg=#cbe783	gui=none
 hi Special		ctermfg=194		cterm=none		guifg=#e7f6da	gui=none
 hi String		ctermfg=113		cterm=none		guifg=#95e454	gui=italic
 hi Comment		ctermfg=246		cterm=none		guifg=#99968b	gui=italic
