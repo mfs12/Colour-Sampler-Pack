@@ -20,7 +20,7 @@ let colors_name = "wombat256"
 
 " General colors
 hi Normal		ctermfg=254		ctermbg=234		cterm=none		guifg=#f6f3e8	guibg=#191919	gui=none
-hi Cursor		ctermfg=none	ctermbg=241		cterm=none		guifg=NONE		guibg=#656565	gui=none
+hi Cursor		ctermfg=none	ctermbg=241		cterm=none		guifg=none		guibg=#656565	gui=none
 hi Visual		ctermfg=7		ctermbg=238		cterm=none		guifg=#f6f3e8	guibg=#444444	gui=none
 " hi VisualNOS
 " hi Search
@@ -31,8 +31,8 @@ hi VertSplit	ctermfg=238		ctermbg=238		cterm=none		guifg=#444444	guibg=#444444	g
 hi StatusLineNC	ctermfg=243		ctermbg=238		cterm=none		guifg=#857b6f	guibg=#444444	gui=none
 hi LineNr		ctermfg=243		ctermbg=0		cterm=none		guifg=#857b6f	guibg=#000000	gui=none
 hi SpecialKey	ctermfg=244		ctermbg=236		cterm=none		guifg=#808080	guibg=#343434	gui=none
-hi NonText		ctermfg=264		ctermbg=236		cterm=none		guifg=#808080	guibg=#262626	gui=none
-hi ColorColumn					ctermbg=236										guibg=#262626
+hi NonText		ctermfg=244		ctermbg=236		cterm=none		guifg=#808080	guibg=#202020	gui=none
+hi ColorColumn	ctermfg=none	ctermbg=52		cterm=none		guifg=none		guibg=#241919	gui=none
 
 " Vim >= 7.0 specific colors
 if version >= 700
