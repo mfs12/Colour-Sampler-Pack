@@ -49,7 +49,7 @@ hi Constant		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
 hi Number		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
 hi PreProc		ctermfg=173		cterm=none		guifg=#e5786d	gui=none
 hi Function		ctermfg=192		cterm=none		guifg=#cae682	gui=none
-hi Identifier	ctermfg=192		cterm=none		guifg=#cae682	gui=none
+hi Identifier	ctermfg=192		cterm=none		guifg=#e7f6da	gui=none
 hi Type			ctermfg=192		cterm=none		guifg=#cae682	gui=none
 hi Special		ctermfg=194		cterm=none		guifg=#e7f6da	gui=none
 hi String		ctermfg=113		cterm=none		guifg=#95e454	gui=italic
